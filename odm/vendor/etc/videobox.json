@@ -1,0 +1,32 @@
+{
+    "version": "2.1",
+    "vendor.video.jpegopt.enable": [
+        "1"
+    ],
+    "VppWhiteListAdaptCE": [
+        "com.miui.videoplayer",
+        "com.netflix.mediaclient",
+        "com.netflix.mediaclient.debug",
+        "com.google.android.youtube",
+        "com.amazon.avod.thirdpartyclient",
+        "com.qiyi.video",
+        "com.miui.video",
+        "com.tencent.qqlive",
+        "com.youku.phone",
+        "tv.danmaku.bili",
+        "tv.danmaku.bilibilihd"
+    ],
+    "VppWhiteListAdaptCE_VideoEnhance": [
+        "com.miui.videoplayer",
+        "com.netflix.mediaclient",
+        "com.netflix.mediaclient.debug",
+        "com.google.android.youtube",
+        "com.amazon.avod.thirdpartyclient",
+        "com.qiyi.video",
+        "com.miui.video",
+        "com.tencent.qqlive",
+        "com.youku.phone",
+        "tv.danmaku.bili",
+        "tv.danmaku.bilibilihd"
+    ]
+}

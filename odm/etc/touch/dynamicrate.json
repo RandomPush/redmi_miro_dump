@@ -1,0 +1,8 @@
+{
+     "DynamicRate":{
+          "version":"1.0",
+          "product":"miro",
+          "DEFAULT":true,
+          "APP":"com.dragon.read"
+     }
+}

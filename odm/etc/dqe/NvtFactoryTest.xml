@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Calib_Data>
+  <module name="version">
+    <version>20240105</version>
+  </module>
+  <module name="CRC">
+    <u32IC_CRC_GOLD_VAL_1>3304144377</u32IC_CRC_GOLD_VAL_1>
+    <u32IC_CRC_GOLD_VAL_2>4033266388</u32IC_CRC_GOLD_VAL_2>
+    <u32IC_CRC_GOLD_VAL_3>3173880344</u32IC_CRC_GOLD_VAL_3>
+    <u32IC_CRC_GOLD_VAL_4>3760418312</u32IC_CRC_GOLD_VAL_4>
+    <u32IC_CRC_GOLD_VAL_5>4022836790</u32IC_CRC_GOLD_VAL_5>
+    <u32IC_CRC_GOLD_VAL_6>3101747391</u32IC_CRC_GOLD_VAL_6>
+    <u32IC_CRC_GOLD_VAL_RX>542305454</u32IC_CRC_GOLD_VAL_RX>
+   </module> 
+  <module name="PanelParameters">
+    <Resolution_Rx0>4</Resolution_Rx0>
+    <Resolution_Tx0>4</Resolution_Tx0>
+    <Frame_Rate>2</Frame_Rate>
+    <Rx_Line_Rate>242</Rx_Line_Rate>
+    <Rx_Line_Rate_En>1</Rx_Line_Rate_En>
+    <Rx_Data_Rate>12000</Rx_Data_Rate>
+    <Tx_Data_Rate>15500</Tx_Data_Rate>
+    <Rx_Pattern_Width>1472</Rx_Pattern_Width>
+    <Rx_Pattern_Height>3200</Rx_Pattern_Height>
+  </module>
+</Calib_Data>

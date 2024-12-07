@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Calib_Data>
+  <module name="version">
+    <version>2024/07/17</version>
+  </module>
+  <!-- 王者榮耀 -->
+  <module name="com.tencent.tmgp.sgame">
+    <!--PlayerInfo-->
+    <playerEdge.left>0</playerEdge.left>
+    <playerEdge.right>14100</playerEdge.right>
+    <playerEdge.top>4270</playerEdge.top>
+    <playerEdge.bottom>14400</playerEdge.bottom>
+    <defaultCenterX>6000</defaultCenterX>
+    <defaultCenterY>11250</defaultCenterY>
+    <leftCenterX>6250</leftCenterX>
+    <rightCenterX>10500</rightCenterX>
+    <topCenterY>6750</topCenterY>
+    <bottomCenterY>11250</bottomCenterY>
+    <playerControlThres>270</playerControlThres>
+
+    <!--ViewInfo-->
+    <viewEdge.left>21104</viewEdge.left>
+    <viewEdge.right>28950</viewEdge.right>
+    <viewEdge.top>1575</viewEdge.top>
+    <viewEdge.bottom>7425</viewEdge.bottom>
+    <viewThres>85</viewThres>
+
+    <!--DashInfo-->
+    <dashEdge.left>0</dashEdge.left>
+    <dashEdge.right>0</dashEdge.right>
+    <dashEdge.top>0</dashEdge.top>
+    <dashEdge.bottom>0</dashEdge.bottom>
+
+    <!--RoleChangedInfo-->
+    <roleChangedEdge.left>0</roleChangedEdge.left>
+    <roleChangedEdge.right>0</roleChangedEdge.right>
+    <roleChangedEdge.top>0</roleChangedEdge.top>
+    <roleChangedEdge.bottom>0</roleChangedEdge.bottom>
+
+    <!--UiShift-->
+    <playerShift>0</playerShift>
+    <dashShift>0</dashShift>
+    <roleChangedShift>0</roleChangedShift>
+    <uiButtonShift>0</uiButtonShift>
+  </module>
+  <!-- 和平精英 -->
+  <module name="com.tencent.tmgp.pubgmhd">
+    <!--PlayerInfo-->
+    <playerEdge.left>0</playerEdge.left>
+    <playerEdge.right>16010</playerEdge.right>
+    <playerEdge.top>0</playerEdge.top>
+    <playerEdge.bottom>14400</playerEdge.bottom>
+    <playerControlThres>0</playerControlThres>
+
+    <!--ViewInfo-->
+    <viewThres>0</viewThres>
+
+    <!--UiShift-->
+    <playerShift>0</playerShift>
+    <dashShift>0</dashShift>
+    <roleChangedShift>0</roleChangedShift>
+    <uiButtonShift>0</uiButtonShift>
+  </module>
+  <!-- 原神 -->
+  <module name="com.miHoYo.Yuanshen">
+    <!--PlayerInfo-->
+    <playerEdge.left>1021</playerEdge.left>
+    <playerEdge.right>10544</playerEdge.right>
+    <playerEdge.top>6000</playerEdge.top>
+    <playerEdge.bottom>14400</playerEdge.bottom>
+    <defaultCenterX>5872</defaultCenterX>
+    <defaultCenterY>11000</defaultCenterY>
+    <leftCenterX>5872</leftCenterX>
+    <rightCenterX>5872</rightCenterX>
+    <topCenterY>11000</topCenterY>
+    <bottomCenterY>11000</bottomCenterY>
+    <playerControlThres>0</playerControlThres>
+
+    <!--ViewInfo-->
+    <viewEdge.left>0</viewEdge.left>
+    <viewEdge.right>0</viewEdge.right>
+    <viewEdge.top>0</viewEdge.top>
+    <viewEdge.bottom>0</viewEdge.bottom>
+    <viewThres>0</viewThres>
+
+    <!--DashInfo-->
+    <dashEdge.left>27000</dashEdge.left>
+    <dashEdge.right>29000</dashEdge.right>
+    <dashEdge.top>11400</dashEdge.top>
+    <dashEdge.bottom>13400</dashEdge.bottom>
+
+    <!--RoleChangedInfo-->
+    <roleChangedEdge.left>26990</roleChangedEdge.left>
+    <roleChangedEdge.right>30270</roleChangedEdge.right>
+    <roleChangedEdge.top>2420</roleChangedEdge.top>
+    <roleChangedEdge.bottom>6980</roleChangedEdge.bottom>
+
+    <!--UIButtonInfo-->
+    <uiButtonEdge0.left>22960</uiButtonEdge0.left>
+    <uiButtonEdge0.right>24080</uiButtonEdge0.right>
+    <uiButtonEdge0.top>241</uiButtonEdge0.top>
+    <uiButtonEdge0.bottom>1360</uiButtonEdge0.bottom>
+
+    <uiButtonEdge1.left>24480</uiButtonEdge1.left>
+    <uiButtonEdge1.right>25600</uiButtonEdge1.right>
+    <uiButtonEdge1.top>241</uiButtonEdge1.top>
+    <uiButtonEdge1.bottom>1360</uiButtonEdge1.bottom>
+
+    <uiButtonEdge2.left>26000</uiButtonEdge2.left>
+    <uiButtonEdge2.right>27120</uiButtonEdge2.right>
+    <uiButtonEdge2.top>241</uiButtonEdge2.top>
+    <uiButtonEdge2.bottom>1360</uiButtonEdge2.bottom>
+
+    <uiButtonEdge3.left>27520</uiButtonEdge3.left>
+    <uiButtonEdge3.right>28640</uiButtonEdge3.right>
+    <uiButtonEdge3.top>241</uiButtonEdge3.top>
+    <uiButtonEdge3.bottom>1360</uiButtonEdge3.bottom>
+
+    <uiButtonEdge4.left>29040</uiButtonEdge4.left>
+    <uiButtonEdge4.right>30160</uiButtonEdge4.right>
+    <uiButtonEdge4.top>241</uiButtonEdge4.top>
+    <uiButtonEdge4.bottom>1360</uiButtonEdge4.bottom>
+
+    <uiButtonEdge5.left>1640</uiButtonEdge5.left>
+    <uiButtonEdge5.right>2760</uiButtonEdge5.right>
+    <uiButtonEdge5.top>241</uiButtonEdge5.top>
+    <uiButtonEdge5.bottom>1360</uiButtonEdge5.bottom>
+
+    <uiButtonEdge6.left>6680</uiButtonEdge6.left>
+    <uiButtonEdge6.right>7920</uiButtonEdge6.right>
+    <uiButtonEdge6.top>121</uiButtonEdge6.top>
+    <uiButtonEdge6.bottom>1360</uiButtonEdge6.bottom>
+
+    <uiButtonEdge7.left>8220</uiButtonEdge7.left>
+    <uiButtonEdge7.right>9340</uiButtonEdge7.right>
+    <uiButtonEdge7.top>181</uiButtonEdge7.top>
+    <uiButtonEdge7.bottom>1360</uiButtonEdge7.bottom>
+  
+    <uiButtonEdge8.left>1500</uiButtonEdge8.left>
+    <uiButtonEdge8.right>2860</uiButtonEdge8.right>
+    <uiButtonEdge8.top>2741</uiButtonEdge8.top>
+    <uiButtonEdge8.bottom>4100</uiButtonEdge8.bottom>
+
+    <!--UIShift-->
+    <playerShift>0.64067</playerShift>
+    <dashShift>1.2355</dashShift>
+    <roleChangedShift>1.5508</roleChangedShift>
+    <uiButtonShift>1.9983</uiButtonShift>
+  </module>
+  <!-- 星鐵 -->
+  <module name="com.miHoYo.hkrpg">
+    <!--PlayerInfo-->
+    <playerEdge.left>2068</playerEdge.left>
+    <playerEdge.right>11667</playerEdge.right>
+    <playerEdge.top>8080</playerEdge.top>
+    <playerEdge.bottom>13280</playerEdge.bottom>
+    <defaultCenterX>6100</defaultCenterX>
+    <defaultCenterY>11200</defaultCenterY>
+    <leftCenterX>6100</leftCenterX>
+    <rightCenterX>6100</rightCenterX>
+    <topCenterY>11200</topCenterY>
+    <bottomCenterY>11200</bottomCenterY>
+    <playerControlThres>0</playerControlThres>
+
+    <!--ViewInfo-->
+    <viewEdge.left>0</viewEdge.left>
+    <viewEdge.right>0</viewEdge.right>
+    <viewEdge.top>0</viewEdge.top>
+    <viewEdge.bottom>0</viewEdge.bottom>
+    <viewThres>0</viewThres>
+
+    <!--UIButtonInfo-->
+    <uiButtonEdge0.left>22040</uiButtonEdge0.left>
+    <uiButtonEdge0.right>30340</uiButtonEdge0.right>
+    <uiButtonEdge0.top>80</uiButtonEdge0.top>
+    <uiButtonEdge0.bottom>1480</uiButtonEdge0.bottom>
+
+    <uiButtonEdge1.left>1260</uiButtonEdge1.left>
+    <uiButtonEdge1.right>2460</uiButtonEdge1.right>
+    <uiButtonEdge1.top>600</uiButtonEdge1.top>
+    <uiButtonEdge1.bottom>1800</uiButtonEdge1.bottom>
+
+    <uiButtonEdge2.left>1260</uiButtonEdge2.left>
+    <uiButtonEdge2.right>2460</uiButtonEdge2.right>
+    <uiButtonEdge2.top>3400</uiButtonEdge2.top>
+    <uiButtonEdge2.bottom>4600</uiButtonEdge2.bottom>
+
+    <uiButtonEdge3.left>4460</uiButtonEdge3.left>
+    <uiButtonEdge3.right>5859</uiButtonEdge3.right>
+    <uiButtonEdge3.top>500</uiButtonEdge3.top>
+    <uiButtonEdge3.bottom>1900</uiButtonEdge3.bottom>
+
+    <!--UiShift-->
+    <playerShift>0</playerShift>
+    <dashShift>0</dashShift>
+    <roleChangedShift>0</roleChangedShift>
+    <uiButtonShift>0</uiButtonShift>
+  </module>
+  <!-- 絕區零 -->
+  <module name="com.miHoYo.Nap">
+    <!--PlayerInfo-->
+    <playerEdge.left>975</playerEdge.left>
+    <playerEdge.right>8574</playerEdge.right>
+    <playerEdge.top>6461</playerEdge.top>
+    <playerEdge.bottom>14060</playerEdge.bottom>
+    <defaultCenterX>4775</defaultCenterX>
+    <defaultCenterY>10260</defaultCenterY>
+    <leftCenterX>4775</leftCenterX>
+    <rightCenterX>4775</rightCenterX>
+    <topCenterY>10260</topCenterY>
+    <bottomCenterY>10260</bottomCenterY>
+    <playerControlThres>0</playerControlThres>
+
+    <!--ViewInfo-->
+    <viewEdge.left>0</viewEdge.left>
+    <viewEdge.right>0</viewEdge.right>
+    <viewEdge.top>0</viewEdge.top>
+    <viewEdge.bottom>0</viewEdge.bottom>
+    <viewThres>0</viewThres>
+
+    <!--UIButtonInfo-->
+    <uiButtonEdge0.left>1205</uiButtonEdge0.left>
+    <uiButtonEdge0.right>3391</uiButtonEdge0.right>
+    <uiButtonEdge0.top>507</uiButtonEdge0.top>
+    <uiButtonEdge0.bottom>1946</uiButtonEdge0.bottom>
+
+    <!--UiShift-->
+    <playerShift>0</playerShift>
+    <dashShift>0</dashShift>
+    <roleChangedShift>0</roleChangedShift>
+    <uiButtonShift>0</uiButtonShift>
+  </module>
+</Calib_Data>

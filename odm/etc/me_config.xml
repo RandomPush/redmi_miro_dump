@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- MIUI ADD: Modem_ModemEnhance -->
+<MESubFeatureConfig>
+    <!--global -->
+    <!-- device_name = ro.product.device -->
+    <deviceConfig device_name="miro">
+        <!-- hwc_name = ro.product.mod_device -->
+        <hwc hwc_name="GL" />
+        <!-- feature_id refer to MEFeatureConfig.MEFEATURE_TYPE_ID_XXX -->
+        <feature feature_id="1"  hw_support="0" sw_version="1" sw_enable="0" sw_mp_enable="0"/>
+        <!-- AOL/UL -->
+        <feature feature_id="14" hw_support="1" sw_version="1" sw_enable="1" sw_mp_enable="1"/>
+        <feature feature_id="17" hw_support="0" sw_version="1" sw_enable="0" sw_mp_enable="0"/>
+        <!-- T1 -->
+        <feature feature_id="19" hw_support="1" sw_version="1" sw_enable="1" sw_mp_enable="1"/>
+        <!-- QET7100 -->
+        <feature feature_id="22" hw_support="1" sw_version="1" sw_enable="1" sw_mp_enable="1"/>
+
+        <!--bitMask 0x31f==799 -->
+        <GestureModeMapConfigBitMask bitMask="2231125" />
+        <GestureModeMapConfig>
+            <!-- Game -->
+            <GestureModeMapItem usb="0"  flip="255" receiver="255" voice="255"  gestureState="1"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="1"    whiteState="255"  bt3 ="255"  outMode="5" outMode1="0" />
+            <GestureModeMapItem usb="0"  flip="255" receiver="255" voice="255"  gestureState="6"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="1"    whiteState="255"  bt3 ="255"  outMode="5" outMode1="0" />
+            <GestureModeMapItem usb="0"  flip="255" receiver="255" voice="255"  gestureState="12" orientState="255"  distanceState="255"  interferenceState="255"   gameState="1"    whiteState="255"  bt3 ="255"  outMode="4" outMode1="0" />
+
+            <GestureModeMapItem usb="1"  flip="255" receiver="255" voice="255"  gestureState="1"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="1"    whiteState="255"  bt3 ="255"  outMode="5" outMode1="0" />
+            <GestureModeMapItem usb="1"  flip="255" receiver="255" voice="255"  gestureState="6"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="1"    whiteState="255"  bt3 ="255"  outMode="5" outMode1="0" />
+            <GestureModeMapItem usb="1"  flip="255" receiver="255" voice="255"  gestureState="12" orientState="255"  distanceState="255"  interferenceState="255"   gameState="1"    whiteState="255"  bt3 ="255"  outMode="4" outMode1="0" />
+
+            <GestureModeMapItem usb="0"  flip="255" receiver="255" voice="255"  gestureState="2"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="1"    whiteState="255"  bt3 ="255"  outMode="5" outMode1="0" />
+            <GestureModeMapItem usb="0"  flip="255" receiver="255" voice="255"  gestureState="5"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="1"    whiteState="255"  bt3 ="255"  outMode="5" outMode1="0" />
+            <GestureModeMapItem usb="0"  flip="255" receiver="255" voice="255"  gestureState="16" orientState="255"  distanceState="255"  interferenceState="255"   gameState="1"    whiteState="255"  bt3 ="255"  outMode="5" outMode1="0" />
+
+            <GestureModeMapItem usb="1"  flip="255" receiver="255" voice="255"  gestureState="2"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="1"    whiteState="255"  bt3 ="255"  outMode="5" outMode1="0" />
+            <GestureModeMapItem usb="1"  flip="255" receiver="255" voice="255"  gestureState="5"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="1"    whiteState="255"  bt3 ="255"  outMode="5" outMode1="0" />
+            <GestureModeMapItem usb="1"  flip="255" receiver="255" voice="255"  gestureState="16" orientState="255"  distanceState="255"  interferenceState="255"   gameState="1"    whiteState="255"  bt3 ="255"  outMode="5" outMode1="0" />
+
+            <!-- Call -->
+            <GestureModeMapItem usb="0"  flip="255" receiver="1" voice="255"  gestureState="1"  orientState="255"  distanceState="1"  interferenceState="255"   gameState="255"    whiteState="255"  bt3 ="255"  outMode="3" outMode1="0" />
+            <GestureModeMapItem usb="1"  flip="255" receiver="1" voice="255"  gestureState="1"  orientState="255"  distanceState="1"  interferenceState="255"   gameState="255"    whiteState="255"  bt3 ="255"  outMode="3" outMode1="0" />
+            <GestureModeMapItem usb="0"  flip="255" receiver="1" voice="255"  gestureState="2"  orientState="255"  distanceState="1"  interferenceState="255"   gameState="255"    whiteState="255"  bt3 ="255"  outMode="3" outMode1="0" />
+            <GestureModeMapItem usb="1"  flip="255" receiver="1" voice="255"  gestureState="2"  orientState="255"  distanceState="1"  interferenceState="255"   gameState="255"    whiteState="255"  bt3 ="255"  outMode="3" outMode1="0" />
+
+            <!-- App -->
+            <GestureModeMapItem usb="0"  flip="255" receiver="255" voice="255"  gestureState="1"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="255"    whiteState="1"  bt3 ="255"  outMode="1" outMode1="0" />
+            <GestureModeMapItem usb="0"  flip="255" receiver="255" voice="255"  gestureState="2"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="255"    whiteState="1"  bt3 ="255"  outMode="1" outMode1="0" />
+
+            <GestureModeMapItem usb="1"  flip="255" receiver="255" voice="255"  gestureState="1"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="255"    whiteState="1"  bt3 ="255"  outMode="1" outMode1="0" />
+            <GestureModeMapItem usb="1"  flip="255" receiver="255" voice="255"  gestureState="2"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="255"    whiteState="1"  bt3 ="255"  outMode="1" outMode1="0" />
+
+            <GestureModeMapItem usb="0"  flip="255" receiver="255" voice="255"  gestureState="5"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="255"    whiteState="1"  bt3 ="255"  outMode="2" outMode1="0" />
+            <GestureModeMapItem usb="0"  flip="255" receiver="255" voice="255"  gestureState="6"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="255"    whiteState="1"  bt3 ="255"  outMode="2" outMode1="0" />
+
+            <GestureModeMapItem usb="1"  flip="255" receiver="255" voice="255"  gestureState="5"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="255"    whiteState="1"  bt3 ="255"  outMode="2" outMode1="0" />
+            <GestureModeMapItem usb="1"  flip="255" receiver="255" voice="255"  gestureState="6"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="255"    whiteState="1"  bt3 ="255"  outMode="2" outMode1="0" />
+
+            <!-- USB -->
+            <GestureModeMapItem usb="1"  flip="255" receiver="255" voice="255"  gestureState="-1" orientState="255"  distanceState="255"  interferenceState="255"   gameState="255"    whiteState="255"  bt3 ="255"  outMode="6" outMode1="0" />
+            <GestureModeMapItem usb="1"  flip="255" receiver="255" voice="255"  gestureState="1"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="255"    whiteState="255"  bt3 ="255"  outMode="6" outMode1="0" />
+            <GestureModeMapItem usb="1"  flip="255" receiver="255" voice="255"  gestureState="2"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="255"    whiteState="255"  bt3 ="255"  outMode="6" outMode1="0" />
+
+            <GestureModeMapItem usb="0"  flip="255" receiver="255" voice="255"  gestureState="255" orientState="255"  distanceState="255"  interferenceState="255"   gameState="255"    whiteState="255"  bt3 ="255"   outMode="0" outMode1="0" />
+            <GestureModeMapItem usb="1"  flip="255" receiver="255" voice="255"  gestureState="255" orientState="255"  distanceState="255"  interferenceState="255"   gameState="255"    whiteState="255"  bt3 ="255"   outMode="0" outMode1="0" />
+        </GestureModeMapConfig>
+
+        <!--coexist: wifi,bt,ntn,celluar for T1 -->
+	    <NWCoexistMapConfig>
+            <NWCoexistMapItem bt="255"  wifi="0"    ntn="255" voice="255" weak1="255" bt1="0"   hotspot="255" sigweak="1"   wififrequency="255" outMode="1"/>
+            <NWCoexistMapItem bt="255"  wifi="0"    ntn="255" voice="255" weak1="255" bt1="1"   hotspot="255" sigweak="1"   wififrequency="255" outMode="1"/>
+            <NWCoexistMapItem bt="255"  wifi="0"    ntn="255" voice="255" weak1="255" bt1="255" hotspot="255" sigweak="1"   wififrequency="255" outMode="1"/>
+            <NWCoexistMapItem bt="255"  wifi="1"    ntn="255" voice="255" weak1="255" bt1="0"   hotspot="255" sigweak="1"   wififrequency="255" outMode="1"/>
+            <NWCoexistMapItem bt="255"  wifi="1"    ntn="255" voice="255" weak1="255" bt1="1"   hotspot="255" sigweak="1"   wififrequency="255" outMode="1"/>
+            <NWCoexistMapItem bt="255"  wifi="1"    ntn="255" voice="255" weak1="255" bt1="255" hotspot="255" sigweak="1"   wififrequency="255" outMode="1"/>
+            <NWCoexistMapItem bt="255"  wifi="255"  ntn="255" voice="255" weak1="255" bt1="0"   hotspot="255" sigweak="1"   wififrequency="255" outMode="1"/>
+            <NWCoexistMapItem bt="255"  wifi="255"  ntn="255" voice="255" weak1="255" bt1="1"   hotspot="255" sigweak="1"   wififrequency="255" outMode="1"/>
+            <NWCoexistMapItem bt="255"  wifi="255"  ntn="255" voice="255" weak1="255" bt1="255" hotspot="255" sigweak="1"   wififrequency="255" outMode="1"/>
+
+            <NWCoexistMapItem bt="255"  wifi="0"    ntn="255" voice="255" weak1="255" bt1="0"   hotspot="255" sigweak="0"   wififrequency="255" outMode="1"/>
+            <NWCoexistMapItem bt="255"  wifi="0"    ntn="255" voice="255" weak1="255" bt1="1"   hotspot="255" sigweak="0"   wififrequency="255" outMode="3"/>
+            <NWCoexistMapItem bt="255"  wifi="0"    ntn="255" voice="255" weak1="255" bt1="255" hotspot="255" sigweak="0"   wififrequency="255" outMode="1"/>
+            <NWCoexistMapItem bt="255"  wifi="1"    ntn="255" voice="255" weak1="255" bt1="0"   hotspot="255" sigweak="0"   wififrequency="255" outMode="2"/>
+            <NWCoexistMapItem bt="255"  wifi="1"    ntn="255" voice="255" weak1="255" bt1="1"   hotspot="255" sigweak="0"   wififrequency="255" outMode="2"/>
+            <NWCoexistMapItem bt="255"  wifi="1"    ntn="255" voice="255" weak1="255" bt1="255" hotspot="255" sigweak="0"   wififrequency="255" outMode="2"/>
+            <NWCoexistMapItem bt="255"  wifi="255"  ntn="255" voice="255" weak1="255" bt1="0"   hotspot="255" sigweak="0"   wififrequency="255" outMode="1"/>
+            <NWCoexistMapItem bt="255"  wifi="255"  ntn="255" voice="255" weak1="255" bt1="1"   hotspot="255" sigweak="0"   wififrequency="255" outMode="3"/>
+            <NWCoexistMapItem bt="255"  wifi="255"  ntn="255" voice="255" weak1="255" bt1="255" hotspot="255" sigweak="0"   wififrequency="255" outMode="1"/>
+
+            <NWCoexistMapItem bt="255"  wifi="0"    ntn="255" voice="255" weak1="255" bt1="0"   hotspot="255" sigweak="255"   wififrequency="255" outMode="1"/>
+            <NWCoexistMapItem bt="255"  wifi="0"    ntn="255" voice="255" weak1="255" bt1="1"   hotspot="255" sigweak="255"   wififrequency="255" outMode="3"/>
+            <NWCoexistMapItem bt="255"  wifi="0"    ntn="255" voice="255" weak1="255" bt1="255" hotspot="255" sigweak="255"   wififrequency="255" outMode="1"/>
+            <NWCoexistMapItem bt="255"  wifi="1"    ntn="255" voice="255" weak1="255" bt1="0"   hotspot="255" sigweak="255"   wififrequency="255" outMode="2"/>
+            <NWCoexistMapItem bt="255"  wifi="1"    ntn="255" voice="255" weak1="255" bt1="1"   hotspot="255" sigweak="255"   wififrequency="255" outMode="2"/>
+            <NWCoexistMapItem bt="255"  wifi="1"    ntn="255" voice="255" weak1="255" bt1="255" hotspot="255" sigweak="255"   wififrequency="255" outMode="2"/>
+            <NWCoexistMapItem bt="255"  wifi="255"  ntn="255" voice="255" weak1="255" bt1="0"   hotspot="255" sigweak="255"   wififrequency="255" outMode="1"/>
+            <NWCoexistMapItem bt="255"  wifi="255"  ntn="255" voice="255" weak1="255" bt1="1"   hotspot="255" sigweak="255"   wififrequency="255" outMode="3"/>
+            <NWCoexistMapItem bt="255"  wifi="255"  ntn="255" voice="255" weak1="255" bt1="255" hotspot="255" sigweak="255"   wififrequency="255" outMode="1"/>
+        </NWCoexistMapConfig>
+        <NWCoexistControlMapConfig>
+             <NWCoexistControlMapItem  mode="1" outGPIO0="0"    outGPIO1="0"    outGPIO2="255"    outGPIO3="255"    outGPIO4="255"    outGPIO5="255"    outGPIO6="255"/>
+             <NWCoexistControlMapItem  mode="2" outGPIO0="0"    outGPIO1="1"    outGPIO2="255"    outGPIO3="255"    outGPIO4="255"    outGPIO5="255"    outGPIO6="255"/>
+             <NWCoexistControlMapItem  mode="3" outGPIO0="1"    outGPIO1="0"    outGPIO2="255"    outGPIO3="255"    outGPIO4="255"    outGPIO5="255"    outGPIO6="255"/>
+        </NWCoexistControlMapConfig>
+    </deviceConfig>
+
+    <!--cn -->
+    <!-- device_name = ro.product.device -->
+    <deviceConfig device_name="miro">
+        <!-- hwc_name = ro.product.mod_device -->
+        <hwc hwc_name="CN" />
+        <!-- feature_id refer to MEFeatureConfig.MEFEATURE_TYPE_ID_XXX -->
+        <feature feature_id="1"  hw_support="0" sw_version="1" sw_enable="0" sw_mp_enable="0"/>
+        <!-- SmartUplink -->
+        <feature feature_id="7"  hw_support="1" sw_version="1" sw_enable="1" sw_mp_enable="1"/>
+        <feature feature_id="8"  hw_support="1" sw_version="1" sw_enable="1" sw_mp_enable="1"/>
+        <feature feature_id="9"  hw_support="1" sw_version="1" sw_enable="1" sw_mp_enable="1"/>
+        <feature feature_id="10" hw_support="1" sw_version="1" sw_enable="1" sw_mp_enable="1"/>
+        <!-- AOL/UL -->
+        <feature feature_id="14" hw_support="1" sw_version="1" sw_enable="1" sw_mp_enable="1"/>
+        <!-- T1 -->
+        <feature feature_id="19" hw_support="1" sw_version="1" sw_enable="1" sw_mp_enable="1"/>
+        <!-- QET7100 -->
+        <feature feature_id="22" hw_support="1" sw_version="1" sw_enable="1" sw_mp_enable="1"/>
+        <!--bitMask 0x31f==799 -->
+        <GestureModeMapConfigBitMask bitMask="2231125" />
+        <GestureModeMapConfig>
+            <!-- Game -->
+            <GestureModeMapItem usb="0"  flip="255" receiver="255" voice="255"  gestureState="1"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="1"    whiteState="255"  bt3 ="255"  outMode="5" outMode1="0" />
+            <GestureModeMapItem usb="0"  flip="255" receiver="255" voice="255"  gestureState="6"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="1"    whiteState="255"  bt3 ="255"  outMode="5" outMode1="0" />
+            <GestureModeMapItem usb="0"  flip="255" receiver="255" voice="255"  gestureState="12" orientState="255"  distanceState="255"  interferenceState="255"   gameState="1"    whiteState="255"  bt3 ="255"  outMode="4" outMode1="0" />
+
+            <GestureModeMapItem usb="1"  flip="255" receiver="255" voice="255"  gestureState="1"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="1"    whiteState="255"  bt3 ="255"  outMode="5" outMode1="0" />
+            <GestureModeMapItem usb="1"  flip="255" receiver="255" voice="255"  gestureState="6"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="1"    whiteState="255"  bt3 ="255"  outMode="5" outMode1="0" />
+            <GestureModeMapItem usb="1"  flip="255" receiver="255" voice="255"  gestureState="12" orientState="255"  distanceState="255"  interferenceState="255"   gameState="1"    whiteState="255"  bt3 ="255"  outMode="4" outMode1="0" />
+
+            <GestureModeMapItem usb="0"  flip="255" receiver="255" voice="255"  gestureState="2"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="1"    whiteState="255"  bt3 ="255"  outMode="5" outMode1="0" />
+            <GestureModeMapItem usb="0"  flip="255" receiver="255" voice="255"  gestureState="5"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="1"    whiteState="255"  bt3 ="255"  outMode="5" outMode1="0" />
+            <GestureModeMapItem usb="0"  flip="255" receiver="255" voice="255"  gestureState="16" orientState="255"  distanceState="255"  interferenceState="255"   gameState="1"    whiteState="255"  bt3 ="255"  outMode="5" outMode1="0" />
+
+            <GestureModeMapItem usb="1"  flip="255" receiver="255" voice="255"  gestureState="2"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="1"    whiteState="255"  bt3 ="255"  outMode="5" outMode1="0" />
+            <GestureModeMapItem usb="1"  flip="255" receiver="255" voice="255"  gestureState="5"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="1"    whiteState="255"  bt3 ="255"  outMode="5" outMode1="0" />
+            <GestureModeMapItem usb="1"  flip="255" receiver="255" voice="255"  gestureState="16" orientState="255"  distanceState="255"  interferenceState="255"   gameState="1"    whiteState="255"  bt3 ="255"  outMode="5" outMode1="0" />
+
+            <!-- Call -->
+            <GestureModeMapItem usb="0"  flip="255" receiver="1" voice="255"  gestureState="1"  orientState="255"  distanceState="1"  interferenceState="255"   gameState="255"    whiteState="255"  bt3 ="255"  outMode="3" outMode1="0" />
+            <GestureModeMapItem usb="1"  flip="255" receiver="1" voice="255"  gestureState="1"  orientState="255"  distanceState="1"  interferenceState="255"   gameState="255"    whiteState="255"  bt3 ="255"  outMode="3" outMode1="0" />
+            <GestureModeMapItem usb="0"  flip="255" receiver="1" voice="255"  gestureState="2"  orientState="255"  distanceState="1"  interferenceState="255"   gameState="255"    whiteState="255"  bt3 ="255"  outMode="3" outMode1="0" />
+            <GestureModeMapItem usb="1"  flip="255" receiver="1" voice="255"  gestureState="2"  orientState="255"  distanceState="1"  interferenceState="255"   gameState="255"    whiteState="255"  bt3 ="255"  outMode="3" outMode1="0" />
+
+            <!-- App -->
+            <GestureModeMapItem usb="0"  flip="255" receiver="255" voice="255"  gestureState="1"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="255"    whiteState="1"  bt3 ="255"  outMode="1" outMode1="0" />
+            <GestureModeMapItem usb="0"  flip="255" receiver="255" voice="255"  gestureState="2"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="255"    whiteState="1"  bt3 ="255"  outMode="1" outMode1="0" />
+
+            <GestureModeMapItem usb="1"  flip="255" receiver="255" voice="255"  gestureState="1"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="255"    whiteState="1"  bt3 ="255"  outMode="1" outMode1="0" />
+            <GestureModeMapItem usb="1"  flip="255" receiver="255" voice="255"  gestureState="2"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="255"    whiteState="1"  bt3 ="255"  outMode="1" outMode1="0" />
+
+            <GestureModeMapItem usb="0"  flip="255" receiver="255" voice="255"  gestureState="5"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="255"    whiteState="1"  bt3 ="255"  outMode="2" outMode1="0" />
+            <GestureModeMapItem usb="0"  flip="255" receiver="255" voice="255"  gestureState="6"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="255"    whiteState="1"  bt3 ="255"  outMode="2" outMode1="0" />
+
+            <GestureModeMapItem usb="1"  flip="255" receiver="255" voice="255"  gestureState="5"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="255"    whiteState="1"  bt3 ="255"  outMode="2" outMode1="0" />
+            <GestureModeMapItem usb="1"  flip="255" receiver="255" voice="255"  gestureState="6"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="255"    whiteState="1"  bt3 ="255"  outMode="2" outMode1="0" />
+
+            <!-- USB -->
+            <GestureModeMapItem usb="1"  flip="255" receiver="255" voice="255"  gestureState="-1" orientState="255"  distanceState="255"  interferenceState="255"   gameState="255"    whiteState="255"  bt3 ="255"  outMode="6" outMode1="0" />
+            <GestureModeMapItem usb="1"  flip="255" receiver="255" voice="255"  gestureState="1"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="255"    whiteState="255"  bt3 ="255"  outMode="6" outMode1="0" />
+            <GestureModeMapItem usb="1"  flip="255" receiver="255" voice="255"  gestureState="2"  orientState="255"  distanceState="255"  interferenceState="255"   gameState="255"    whiteState="255"  bt3 ="255"  outMode="6" outMode1="0" />
+
+            <GestureModeMapItem usb="0"  flip="255" receiver="255" voice="255"  gestureState="255" orientState="255"  distanceState="255"  interferenceState="255"   gameState="255"    whiteState="255"  bt3 ="255"   outMode="0" outMode1="0" />
+            <GestureModeMapItem usb="1"  flip="255" receiver="255" voice="255"  gestureState="255" orientState="255"  distanceState="255"  interferenceState="255"   gameState="255"    whiteState="255"  bt3 ="255"   outMode="0" outMode1="0" />
+        </GestureModeMapConfig>
+
+        <!--coexist: wifi,bt,ntn,celluar for T1 -->
+	    <NWCoexistMapConfig>
+            <NWCoexistMapItem bt="255"  wifi="0"    ntn="255" voice="255" weak1="255" bt1="0"   hotspot="255" sigweak="1"   wififrequency="255" outMode="1"/>
+            <NWCoexistMapItem bt="255"  wifi="0"    ntn="255" voice="255" weak1="255" bt1="1"   hotspot="255" sigweak="1"   wififrequency="255" outMode="1"/>
+            <NWCoexistMapItem bt="255"  wifi="0"    ntn="255" voice="255" weak1="255" bt1="255" hotspot="255" sigweak="1"   wififrequency="255" outMode="1"/>
+            <NWCoexistMapItem bt="255"  wifi="1"    ntn="255" voice="255" weak1="255" bt1="0"   hotspot="255" sigweak="1"   wififrequency="255" outMode="1"/>
+            <NWCoexistMapItem bt="255"  wifi="1"    ntn="255" voice="255" weak1="255" bt1="1"   hotspot="255" sigweak="1"   wififrequency="255" outMode="1"/>
+            <NWCoexistMapItem bt="255"  wifi="1"    ntn="255" voice="255" weak1="255" bt1="255" hotspot="255" sigweak="1"   wififrequency="255" outMode="1"/>
+            <NWCoexistMapItem bt="255"  wifi="255"  ntn="255" voice="255" weak1="255" bt1="0"   hotspot="255" sigweak="1"   wififrequency="255" outMode="1"/>
+            <NWCoexistMapItem bt="255"  wifi="255"  ntn="255" voice="255" weak1="255" bt1="1"   hotspot="255" sigweak="1"   wififrequency="255" outMode="1"/>
+            <NWCoexistMapItem bt="255"  wifi="255"  ntn="255" voice="255" weak1="255" bt1="255" hotspot="255" sigweak="1"   wififrequency="255" outMode="1"/>
+
+            <NWCoexistMapItem bt="255"  wifi="0"    ntn="255" voice="255" weak1="255" bt1="0"   hotspot="255" sigweak="0"   wififrequency="255" outMode="1"/>
+            <NWCoexistMapItem bt="255"  wifi="0"    ntn="255" voice="255" weak1="255" bt1="1"   hotspot="255" sigweak="0"   wififrequency="255" outMode="3"/>
+            <NWCoexistMapItem bt="255"  wifi="0"    ntn="255" voice="255" weak1="255" bt1="255" hotspot="255" sigweak="0"   wififrequency="255" outMode="1"/>
+            <NWCoexistMapItem bt="255"  wifi="1"    ntn="255" voice="255" weak1="255" bt1="0"   hotspot="255" sigweak="0"   wififrequency="255" outMode="2"/>
+            <NWCoexistMapItem bt="255"  wifi="1"    ntn="255" voice="255" weak1="255" bt1="1"   hotspot="255" sigweak="0"   wififrequency="255" outMode="2"/>
+            <NWCoexistMapItem bt="255"  wifi="1"    ntn="255" voice="255" weak1="255" bt1="255" hotspot="255" sigweak="0"   wififrequency="255" outMode="2"/>
+            <NWCoexistMapItem bt="255"  wifi="255"  ntn="255" voice="255" weak1="255" bt1="0"   hotspot="255" sigweak="0"   wififrequency="255" outMode="1"/>
+            <NWCoexistMapItem bt="255"  wifi="255"  ntn="255" voice="255" weak1="255" bt1="1"   hotspot="255" sigweak="0"   wififrequency="255" outMode="3"/>
+            <NWCoexistMapItem bt="255"  wifi="255"  ntn="255" voice="255" weak1="255" bt1="255" hotspot="255" sigweak="0"   wififrequency="255" outMode="1"/>
+
+            <NWCoexistMapItem bt="255"  wifi="0"    ntn="255" voice="255" weak1="255" bt1="0"   hotspot="255" sigweak="255"   wififrequency="255" outMode="1"/>
+            <NWCoexistMapItem bt="255"  wifi="0"    ntn="255" voice="255" weak1="255" bt1="1"   hotspot="255" sigweak="255"   wififrequency="255" outMode="3"/>
+            <NWCoexistMapItem bt="255"  wifi="0"    ntn="255" voice="255" weak1="255" bt1="255" hotspot="255" sigweak="255"   wififrequency="255" outMode="1"/>
+            <NWCoexistMapItem bt="255"  wifi="1"    ntn="255" voice="255" weak1="255" bt1="0"   hotspot="255" sigweak="255"   wififrequency="255" outMode="2"/>
+            <NWCoexistMapItem bt="255"  wifi="1"    ntn="255" voice="255" weak1="255" bt1="1"   hotspot="255" sigweak="255"   wififrequency="255" outMode="2"/>
+            <NWCoexistMapItem bt="255"  wifi="1"    ntn="255" voice="255" weak1="255" bt1="255" hotspot="255" sigweak="255"   wififrequency="255" outMode="2"/>
+            <NWCoexistMapItem bt="255"  wifi="255"  ntn="255" voice="255" weak1="255" bt1="0"   hotspot="255" sigweak="255"   wififrequency="255" outMode="1"/>
+            <NWCoexistMapItem bt="255"  wifi="255"  ntn="255" voice="255" weak1="255" bt1="1"   hotspot="255" sigweak="255"   wififrequency="255" outMode="3"/>
+            <NWCoexistMapItem bt="255"  wifi="255"  ntn="255" voice="255" weak1="255" bt1="255" hotspot="255" sigweak="255"   wififrequency="255" outMode="1"/>
+        </NWCoexistMapConfig>
+        <NWCoexistControlMapConfig>
+             <NWCoexistControlMapItem  mode="1" outGPIO0="0"    outGPIO1="0"    outGPIO2="255"    outGPIO3="255"    outGPIO4="255"    outGPIO5="255"    outGPIO6="255"/>
+             <NWCoexistControlMapItem  mode="2" outGPIO0="0"    outGPIO1="1"    outGPIO2="255"    outGPIO3="255"    outGPIO4="255"    outGPIO5="255"    outGPIO6="255"/>
+             <NWCoexistControlMapItem  mode="3" outGPIO0="1"    outGPIO1="0"    outGPIO2="255"    outGPIO3="255"    outGPIO4="255"    outGPIO5="255"    outGPIO6="255"/>
+        </NWCoexistControlMapConfig>
+    </deviceConfig>
+
+    <!--default -->
+    <!-- device_name = ro.product.device -->
+    <deviceConfig device_name="miro">
+        <!-- hwc_name = ro.product.mod_device -->
+        <hwc hwc_name="default" />
+        <!-- feature_id refer to MEFeatureConfig.MEFEATURE_TYPE_ID_XXX -->
+        <feature feature_id="1"  hw_support="0" sw_version="1" sw_enable="0" sw_mp_enable="0"/>
+        <feature feature_id="17" hw_support="0" sw_version="1" sw_enable="0" sw_mp_enable="0"/>
+    </deviceConfig>
+
+</MESubFeatureConfig>
+<!-- END Modem_ModemEnhance -->

@@ -1,0 +1,37 @@
+{
+  "Description": "sensor information config file",
+  "jsonVersion": "V1.0-20240815",
+  "VERSION_CONFIG": {
+	  "_comment": "distinguish multi phone version use common SDK case",
+      "version_number":2,
+      "version_code":"O11U_GL",
+      "version_list":["O11U_CN", "O11U_GL"]
+  },
+  "SENSOR_CONFIG": {
+    "SENSOR_WIDE": {
+		"_comment": "distinguish multi vendor on Wide",
+        "sensor_number":2,
+        "sensor_code":"OV50E",
+        "sensor_list":["OV50E", "IMX989"]
+        
+    },
+    "SENSOR_ULTRAWIDE": {
+        "sensor_number":1,
+        "sensor_code":"S5KKD1",
+        "sensor_list":["S5KKD1"]
+        
+    },
+    "SENSOR_TELE": {
+        "sensor_number":1,
+        "sensor_code":"JN5",
+        "sensor_list":["JN5"]
+        
+    },
+    "SENSOR_FRONT": {
+        "sensor_number":1,
+        "sensor_code":"OV50E",
+        "sensor_list":["OV50E"]
+        
+    }
+  }
+}

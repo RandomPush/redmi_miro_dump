@@ -1,0 +1,19 @@
+{
+	"##":"后置视频模式",
+	"Type":"EffectCategory",
+	"ForVideo": true,
+	"TrueSight":
+	[
+		{
+			"ExtraOptionPath":"0_ExtraOption/mode_rear_video.json"
+		},
+		{
+			"ConfigurePath":"5_DLRetouch/mode_rear_video.json",
+			"Index":5
+		},
+		{
+			"ConfigurePath":"20_FaceRetouch/mode_rear_video.json",
+			"Index":20
+		}
+	]
+}

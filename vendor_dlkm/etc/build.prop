@@ -1,0 +1,23 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.vendor_dlkm.brand=Redmi
+ro.product.vendor_dlkm.device=miro
+ro.product.vendor_dlkm.manufacturer=Xiaomi
+ro.product.vendor_dlkm.model=24122RKC7C
+ro.product.vendor_dlkm.cert=24122RKC7C
+ro.product.vendor_dlkm.marketname=REDMI K80 Pro
+ro.product.vendor_dlkm.name=miro
+ro.vendor_dlkm.build.date=Sat Nov 30 00:36:37 CST 2024
+ro.vendor_dlkm.build.date.utc=1732898197
+ro.vendor_dlkm.build.fingerprint=Redmi/miro/miro:15/AQ3A.240829.003/OS2.0.11.0.VOMCNXM:user/release-keys
+ro.vendor_dlkm.build.id=AQ3A.240829.003
+ro.vendor_dlkm.build.tags=release-keys
+ro.vendor_dlkm.build.type=user
+ro.vendor_dlkm.build.version.incremental=OS2.0.11.0.VOMCNXM
+ro.vendor_dlkm.build.version.release=15
+ro.vendor_dlkm.build.version.release_or_codename=15
+ro.vendor_dlkm.build.version.sdk=35
+# end of file
+

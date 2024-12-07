@@ -1,0 +1,36 @@
+{
+	"##":"质感(默认)模式",
+	"Type":"Effect",
+	"ExtraOption":
+	{
+		"RetouchFactorType": 0
+	},
+	"TrueSight":
+	[
+		{
+			"ConfigurePath":"Effects/0_Spotless/effect_default.json",
+			"Index":0,
+			"Mode":"Preview"
+		},
+		{
+			"ConfigurePath":"Effects/1_SkinSmoothNative/effect_preview.json",
+			"Index":1,
+			"Mode":"Preview"
+		},
+		{
+			"Index":2,
+			"Mode":"Capture",
+			"FaceRetouchEngine":
+			{
+				"Enable":true,
+				"PortraitureSwitch": false,
+				"BodySkinTunerSwitch":true
+			}
+		},
+		{
+			"ConfigurePath":"Effects/2_SkinSmoothRear/effect_potraiture_vivid_capture.json",
+			"Index":3,
+			"Mode":"Capture"
+		}
+	]
+}

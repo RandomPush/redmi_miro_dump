@@ -1,0 +1,602 @@
+[
+    {
+        "packageName":"com.tencent.tmgp.sgame",
+        "name":"王者榮耀",
+        "display_mode":0,
+        "mipiTrigger": "off",
+        "lightPlus": "off",
+        "Sharpness": "off",
+        "MixerWB": "off",
+        "PQ": "off",
+        "FPS": "60",
+        "ColorBlindness": "off",
+        "Battle_or_Hunting": "off",
+        "NightVision": "none",
+        "DDE": "none",
+        "TouchInfo": "on",
+        "usecase":[
+            {
+                "type": "MEMC",
+                "status": "on"
+            },
+            {
+                "type": "SDR2HDR",
+                "status": "off"
+            },
+            {
+                "type": "LDSR",
+                "status": "off"
+            }
+        ]
+    },
+    {
+        "packageName":"com.tencent.tmgp.pubgmhd",
+        "name":"和平精英",
+        "display_mode":0,
+        "mipiTrigger": "off",
+        "lightPlus": "off",
+        "Sharpness": "off",
+        "MixerWB": "off",
+        "PQ": "off",
+        "FPS": "60",
+        "ColorBlindness": "off",
+        "Battle_or_Hunting": "off",
+        "NightVision": "off",
+        "DDE": "none",
+        "TouchInfo": "on",
+        "usecase":[
+            {
+                "type": "MEMC",
+                "status": "on"
+            },
+            {
+                "type": "SDR2HDR",
+                "status": "off"
+            },
+            {
+                "type": "LDSR",
+                "status": "off"
+            }
+        ]
+    },
+    {
+        "packageName":"com.kiloo.subwaysurf",
+        "name":"地鐵跑酷",
+        "display_mode":0,
+        "mipiTrigger": "off",
+        "lightPlus": "off",
+        "Sharpness": "off",
+        "MixerWB": "off",
+        "PQ": "off",
+        "FPS": "60",
+        "ColorBlindness": "off",
+        "Battle_or_Hunting": "none",
+        "NightVision": "none",
+        "DDE": "none",
+        "TouchInfo": "off",
+        "usecase":[
+            {
+                "type": "MEMC",
+                "status": "on"
+            },
+            {
+                "type": "SDR2HDR",
+                "status": "off"
+            },
+            {
+                "type": "LDSR",
+                "status": "off"
+            }
+        ]
+    },
+    {
+        "packageName":"com.tencent.lolm",
+        "name":"英雄聯盟",
+        "display_mode":0,
+        "mipiTrigger": "off",
+        "lightPlus": "off",
+        "Sharpness": "off",
+        "MixerWB": "off",
+        "PQ": "off",
+        "FPS": "60",
+        "ColorBlindness": "off",
+        "Battle_or_Hunting": "none",
+        "NightVision": "none",
+        "DDE": "none",
+        "TouchInfo": "off",
+        "usecase":[
+            {
+                "type": "MEMC",
+                "status": "on"
+            },
+            {
+                "type": "SDR2HDR",
+                "status": "off"
+            },
+            {
+                "type": "LDSR",
+                "status": "off"
+            }
+        ]
+    },
+    {
+        "packageName":"com.happyelements.AndroidAnimal",
+        "name":"開心消消樂",
+        "display_mode":0,
+        "mipiTrigger": "off",
+        "lightPlus": "off",
+        "Sharpness": "off",
+        "MixerWB": "off",
+        "PQ": "off",
+        "FPS": "60",
+        "ColorBlindness": "off",
+        "Battle_or_Hunting": "none",
+        "NightVision": "none",
+        "DDE": "none",
+        "TouchInfo": "none",
+        "usecase":[
+            {
+                "type": "MEMC",
+                "status": "on"
+            },
+            {
+                "type": "SDR2HDR",
+                "status": "off"
+            },
+            {
+                "type": "LDSR",
+                "status": "off"
+            }
+        ]
+    },
+    {
+        "packageName":"com.miHoYo.Yuanshen",
+        "name":"原神",
+        "display_mode":0,
+        "mipiTrigger": "off",
+        "lightPlus": "off",
+        "Sharpness": "off",
+        "MixerWB": "off",
+        "PQ": "off",
+        "FPS": "60",
+        "ColorBlindness": "off",
+        "Battle_or_Hunting": "none",
+        "NightVision": "none",
+        "DDE": "none",
+        "TouchInfo": "on",
+        "usecase":[
+            {
+                "type": "MEMC",
+                "status": "on"
+            },
+            {
+                "type": "SDR2HDR",
+                "status": "on"
+            },
+            {
+                "type": "LDSR",
+                "status": "on"
+            }
+        ]
+    },
+    {
+        "packageName":"com.netease.g67.aligames",
+        "name":"暗黑破壞神",
+        "display_mode":0,
+        "mipiTrigger": "off",
+        "lightPlus": "off",
+        "Sharpness": "off",
+        "MixerWB": "off",
+        "PQ": "off",
+        "FPS": "60",
+        "ColorBlindness": "off",
+        "Battle_or_Hunting": "none",
+        "NightVision": "none",
+        "DDE": "off",
+        "TouchInfo": "off",
+        "usecase":[
+            {
+                "type": "MEMC",
+                "status": "on"
+            },
+            {
+                "type": "SDR2HDR",
+                "status": "off"
+            },
+            {
+                "type": "LDSR",
+                "status": "off"
+            }
+        ]
+    },
+    {
+        "packageName":"com.miHoYo.hkrpg",
+        "name":"崩壞:星穹鐵道",
+        "display_mode":0,
+        "mipiTrigger": "off",
+        "lightPlus": "off",
+        "Sharpness": "off",
+        "MixerWB": "off",
+        "PQ": "off",
+        "FPS": "60",
+        "ColorBlindness": "off",
+        "Battle_or_Hunting": "none",
+        "NightVision": "none",
+        "DDE": "none",
+        "TouchInfo": "on",
+        "usecase":[
+            {
+                "type": "MEMC",
+                "status": "on"
+            },
+            {
+                "type": "SDR2HDR",
+                "status": "on"
+            },
+            {
+                "type": "LDSR",
+                "status": "on"
+            }
+        ]
+    },
+    {
+        "packageName":"com.miHoYo.Nap",
+        "name":"絕區零",
+        "display_mode":0,
+        "mipiTrigger": "off",
+        "lightPlus": "off",
+        "Sharpness": "off",
+        "MixerWB": "off",
+        "PQ": "off",
+        "FPS": "60",
+        "ColorBlindness": "off",
+        "Battle_or_Hunting": "none",
+        "NightVision": "none",
+        "DDE": "none",
+        "TouchInfo": "on",
+        "usecase":[
+            {
+                "type": "MEMC",
+                "status": "on"
+            },
+            {
+                "type": "SDR2HDR",
+                "status": "on"
+            },
+            {
+                "type": "LDSR",
+                "status": "on"
+            }
+        ]
+    },
+    {
+        "packageName":"com.android.gallery3d",
+        "name":"相冊",
+        "display_mode":0,
+        "mipiTrigger": "off",
+        "lightPlus": "off",
+        "Sharpness": "off",
+        "MixerWB": "off",
+        "PQ": "off",
+        "FPS": "60",
+        "ColorBlindness": "off",
+        "Battle_or_Hunting": "none",
+        "NightVision": "none",
+        "DDE": "none",
+        "TouchInfo": "none",
+        "usecase":[
+            {
+                "type": "SDR2HDR",
+                "status": "on"
+            }
+        ]
+    },
+    {
+        "packageName":"com.android.dialer",
+        "name":"地鐵跑酷",
+        "display_mode":0,
+        "mipiTrigger": "off",
+        "lightPlus": "off",
+        "Sharpness": "off",
+        "MixerWB": "off",
+        "PQ": "off",
+        "FPS": "60",
+        "ColorBlindness": "off",
+        "Battle_or_Hunting": "none",
+        "NightVision": "none",
+        "DDE": "none",
+        "TouchInfo": "off",
+        "usecase":[
+            {
+                "type": "MEMC",
+                "status": "on"
+            },
+            {
+                "type": "SDR2HDR",
+                "status": "off"
+            },
+            {
+                "type": "LDSR",
+                "status": "off"
+            }
+        ]
+    },
+    {
+        "packageName":"com.android.mms",
+        "name":"原神",
+        "display_mode":0,
+        "mipiTrigger": "off",
+        "lightPlus": "off",
+        "Sharpness": "off",
+        "MixerWB": "off",
+        "PQ": "off",
+        "FPS": "60",
+        "ColorBlindness": "off",
+        "Battle_or_Hunting": "none",
+        "NightVision": "none",
+        "DDE": "none",
+        "TouchInfo": "on",
+        "usecase":[
+            {
+                "type": "MEMC",
+                "status": "on"
+            },
+            {
+                "type": "SDR2HDR",
+                "status": "on"
+            },
+            {
+                "type": "LDSR",
+                "status": "on"
+            }
+        ]
+    },
+    {
+        "packageName":"com.tencent.qqlive",
+        "name":"腾讯视频",
+        "display_mode":1,
+        "mipiTrigger": "off",
+        "lightPlus": "off",
+        "Sharpness": "off",
+        "MixerWB": "off",
+        "PQ": "off",
+        "FPS": "60",
+        "ColorBlindness": "none",
+        "Battle_or_Hunting": "none",
+        "NightVision": "none",
+        "DDE": "none",
+        "TouchInfo": "none",
+        "usecase":[
+            {
+                "type": "MEMC",
+                "status": "on"
+            },
+            {
+                "type": "SDR2HDR",
+                "status": "on"
+            },
+            {
+                "type": "LDSR",
+                "status": "off"
+            }
+        ]
+    },
+    {
+        "packageName":"com.youku.phone",
+        "name":"优酷视频",
+        "display_mode":1,
+        "mipiTrigger": "off",
+        "lightPlus": "off",
+        "Sharpness": "off",
+        "MixerWB": "off",
+        "PQ": "off",
+        "FPS": "60",
+        "ColorBlindness": "none",
+        "Battle_or_Hunting": "none",
+        "NightVision": "none",
+        "DDE": "none",
+        "TouchInfo": "none",
+        "usecase":[
+            {
+                "type": "MEMC",
+                "status": "on"
+            },
+            {
+                "type": "SDR2HDR",
+                "status": "off"
+            },
+            {
+                "type": "LDSR",
+                "status": "off"
+            }
+        ]
+    },
+    {
+        "packageName":"com.iqiyi.i18n",
+        "name":"iQIYI",
+        "display_mode":1,
+        "mipiTrigger": "off",
+        "lightPlus": "off",
+        "Sharpness": "off",
+        "MixerWB": "off",
+        "PQ": "off",
+        "FPS": "60",
+        "ColorBlindness": "none",
+        "Battle_or_Hunting": "none",
+        "NightVision": "none",
+        "DDE": "none",
+        "TouchInfo": "none",
+        "usecase":[
+            {
+                "type": "MEMC",
+                "status": "off"
+            },
+            {
+                "type": "SDR2HDR",
+                "status": "on"
+            },
+            {
+                "type": "LDSR",
+                "status": "off"
+            }
+        ]
+    },
+    {
+        "packageName":"com.qiyi.video",
+        "name":"iQIYI",
+        "display_mode":1,
+        "mipiTrigger": "off",
+        "lightPlus": "off",
+        "Sharpness": "off",
+        "MixerWB": "off",
+        "PQ": "off",
+        "FPS": "60",
+        "ColorBlindness": "none",
+        "Battle_or_Hunting": "none",
+        "NightVision": "none",
+        "DDE": "none",
+        "TouchInfo": "none",
+        "usecase":[
+            {
+                "type": "MEMC",
+                "status": "off"
+            },
+            {
+                "type": "SDR2HDR",
+                "status": "on"
+            },
+            {
+                "type": "LDSR",
+                "status": "off"
+            }
+        ]
+    },
+    {
+        "packageName":"tv.danmaku.bili",
+        "name":"哔哩哔哩",
+        "display_mode":1,
+        "mipiTrigger": "off",
+        "lightPlus": "off",
+        "Sharpness": "off",
+        "MixerWB": "off",
+        "PQ": "off",
+        "FPS": "60",
+        "ColorBlindness": "none",
+        "Battle_or_Hunting": "none",
+        "NightVision": "none",
+        "DDE": "none",
+        "TouchInfo": "none",
+        "usecase":[
+            {
+                "type": "MEMC",
+                "status": "on"
+            },
+            {
+                "type": "SDR2HDR",
+                "status": "on"
+            },
+            {
+                "type": "LDSR",
+                "status": "off"
+            }
+        ]
+    },
+    {
+        "packageName":"com.ss.android.ugc.aweme",
+        "name":"抖音",
+        "display_mode":1,
+        "mipiTrigger": "off",
+        "lightPlus": "off",
+        "Sharpness": "off",
+        "MixerWB": "off",
+        "PQ": "off",
+        "FPS": "60",
+        "ColorBlindness": "none",
+        "Battle_or_Hunting": "none",
+        "NightVision": "none",
+        "DDE": "none",
+        "TouchInfo": "none",
+        "usecase":[
+            {
+                "type": "MEMC",
+                "status": "on"
+            },
+            {
+                "type": "SDR2HDR",
+                "status": "on"
+            },
+            {
+                "type": "LDSR",
+                "status": "off"
+            }
+        ]
+    },
+    {
+        "packageName":"com.mxtech.videoplayer.pro",
+        "name":"MXPlayer",
+        "display_mode":1,
+        "mipiTrigger": "off",
+        "lightPlus": "off",
+        "Sharpness": "off",
+        "MixerWB": "off",
+        "PQ": "off",
+        "FPS": "60",
+        "ColorBlindness": "none",
+        "Battle_or_Hunting": "none",
+        "NightVision": "none",
+        "DDE": "none",
+        "TouchInfo": "none",
+        "usecase":[
+            {
+                "type": "MEMC",
+                "status": "off"
+            },
+            {
+                "type": "OldMovie",
+                "status": "on"
+            },
+            {
+                "type": "SDR2HDR",
+                "status": "off"
+            },
+            {
+                "type": "LDSR",
+                "status": "off"
+            }
+        ]
+    },
+    {
+        "packageName":"com.mxtech.videoplayer.ad",
+        "name":"MXPlayer",
+        "display_mode":1,
+        "mipiTrigger": "off",
+        "lightPlus": "off",
+        "Sharpness": "off",
+        "MixerWB": "off",
+        "PQ": "off",
+        "FPS": "60",
+        "ColorBlindness": "none",
+        "Battle_or_Hunting": "none",
+        "NightVision": "none",
+        "DDE": "none",
+        "TouchInfo": "none",
+        "usecase":[
+            {
+                "type": "MEMC",
+                "status": "off"
+            },
+            {
+                "type": "OldMovie",
+                "status": "on"
+            },
+            {
+                "type": "SDR2HDR",
+                "status": "off"
+            },
+            {
+                "type": "LDSR",
+                "status": "off"
+            }
+        ]
+    }
+]

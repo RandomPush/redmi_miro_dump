@@ -1,0 +1,65 @@
+{
+    "SENSORNAME_ROLEID_MAP":[
+        {
+            "sensorName": "miro_sunny_ovx8000_wide_i",
+            "roleID": 0
+        },
+        {
+            "sensorName": "miro_sunny_ovx8000_gt24p128f_wide_i_eeprom",
+            "roleID": 0
+        },
+        {
+            "sensorName": "miro_sunny_ovx8000_gt9764v_wide_i_actuator",
+            "roleID": 0
+        },
+        {
+            "sensorName": "miro_sunny_ovx8000_ak7323_wide_i_ois",
+            "roleID": 0
+        },
+        {
+            "sensorName": "miro_aac_s5kkd1_front_i",
+            "roleID":1
+        },
+        {
+            "sensorName": "miro_aac_s5kkd1_gt24p64e_front_i_eeprom",
+            "roleID":1
+        },
+        {
+            "sensorName": "miro_sunny_ov20b40_front_i",
+            "roleID":1
+        },
+        {
+            "sensorName": "miro_sunny_ov20b40_gt24p64e_front_i_eeprom",
+            "roleID":1
+        },
+        {
+            "sensorName": "miro_ofilm_s5kkd1_ultra_i",
+            "roleID": 21
+        },
+        {
+            "sensorName": "miro_ofilm_s5kkd1_gt24p128f_ultra_i_eeprom",
+            "roleID": 21
+        },
+        {
+            "sensorName": "miro_ofilm_s5kjn5_tele3x_i",
+            "roleID": 23
+        },
+        {
+            "sensorName": "miro_ofilm_s5kjn5_gt24p128f_tele3x_i_eeprom",
+            "roleID": 23
+        },
+        {
+            "sensorName": "miro_ofilm_s5kjn5_gt9764v_tele3x_i_actuator",
+            "roleID": 23
+        },
+        {
+            "sensorName": "miro_ofilm_s5kjn5_bu24619_tele3x_i_ois",
+            "roleID": 23
+        }
+    ],
+
+    "TOMBSTONE_FUNCTION":{
+        "isEnable": false,
+        "fileNumber": 20
+    }
+}

@@ -1,0 +1,7 @@
+# only customized property
+ro.product.odm.device=miro
+ro.product.odm.name=miro
+ro.product.odm.cert=24127RK2CC
+ro.product.odm.model=24127RK2CC
+ro.product.vendor.name=miro
+ro.product.odm.marketname=REDMI K80 Pro ALSC

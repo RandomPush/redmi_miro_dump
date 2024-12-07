@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lightstyle>
+    <lightstate>
+        <colorARGB>#00000fff</colorARGB>
+        <flashMode>1</flashMode>
+        <onMS>250</onMS>
+        <offMS>0</offMS>
+        <brightnessMode>0</brightnessMode>
+    </lightstate>
+</lightstyle>

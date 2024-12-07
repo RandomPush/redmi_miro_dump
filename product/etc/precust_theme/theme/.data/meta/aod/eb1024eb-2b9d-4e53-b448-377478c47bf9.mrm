@@ -1,0 +1,77 @@
+{
+  "localId": "eb1024eb-2b9d-4e53-b448-377478c47bf9",
+  "onlineId": null,
+  "assemblyId": null,
+  "productId": null,
+  "hash": "25db6f2f08b0ca146bd055599553f29915ffdf7f",
+  "platform": 15,
+  "size": 457138,
+  "updatedTime": 0,
+  "version": "2024.10.24",
+  "authors": {
+    "zh_HK": "小米主題",
+    "zh_TW": "小米主題",
+    "zh_CN": "小米主题",
+    "fallback": "小米主题",
+    "en_US": "Xiaomi Themes"
+  },
+  "designers": {
+    "zh_HK": "小米主題",
+    "zh_TW": "小米主題",
+    "zh_CN": "小米主题",
+    "fallback": "小米主题",
+    "en_US": "Xiaomi Themes"
+  },
+  "titles": {
+    "zh_HK": "K80 Pro 冠軍版 藍寶堅尼汽車 SQUADRA CORSE",
+    "zh_TW": "K80 Pro 冠軍版 藍寶堅尼汽車 SQUADRA CORSE",
+    "zh_CN": "K80 Pro 冠军版 兰博基尼汽车 SQUADRA CORSE",
+    "fallback": "K80 Pro 冠军版 兰博基尼汽车 SQUADRA CORSE",
+    "en_US": "K80 Pro AUTOMOBILI LAMBORGHINI SQUADRA CORSE"
+  },
+  "descriptions": {
+    "zh_HK": "點燃競速熱情，為你的手機換上全新戰衣！主題融入藍寶堅尼汽車 SQUADRA CORSE的DNA，深度客製開機動畫、充電動畫、桌面桌布及圖示，經典的六角形設計、凌厲的線條結構，為你帶來全方位的視覺衝擊！",
+    "zh_TW": "點燃競速熱情，為你的手機換上全新戰衣！主題融入藍寶堅尼汽車 SQUADRA CORSE的DNA，深度客製開機動畫、充電動畫、桌面桌布及圖示，經典的六角形設計、凌厲的線條結構，為你帶來全方位的視覺衝擊！",
+    "zh_CN": "点燃竞速热情，为你的手机换上全新战衣！主题融入兰博基尼汽车 SQUADRA CORSE的DNA，深度定制开机动画、充电动画、桌面壁纸及图标，经典的六边形设计、凌厉的线条结构，为你带来全方位的视觉冲击！",
+    "fallback": "点燃竞速热情，为你的手机换上全新战衣！主题融入兰博基尼汽车 SQUADRA CORSE的DNA，深度定制开机动画、充电动画、桌面壁纸及图标，经典的六边形设计、凌厉的线条结构，为你带来全方位的视觉冲击！",
+    "en_US": "Ignite your passion for racing and give your phone a new look! If you love Automobili Lamborghini Squadra Corse, you'll love this design, with custom boot and charging animations, wallpapers, icons, and more."
+  },
+  "builtInThumbnails": {
+    "fallback": [
+      "preview_aod_small_0.jpg",
+      "preview_aod_0.jpg"
+    ]
+  },
+  "builtInPreviews": {
+    "fallback": [
+      "preview_aod_0.jpg"
+    ]
+  },
+  "thumbnails": [],
+  "previews": [],
+  "parentResources": [
+    {
+      "localId": "78f1423c-9bc5-4ccf-bf8d-53687c593d7a",
+      "resourceCode": "theme",
+      "extraMeta": {},
+      "metaPath": null,
+      "contentPath": null
+    }
+  ],
+  "subResources": [],
+  "extraMeta": {},
+  "metaPath": null,
+  "contentPath": null,
+  "rightsPath": null,
+  "screenRatio": null,
+  "supportHomeSearchBar": false,
+  "packageVersion": null,
+  "packageName": null,
+  "officialIcons": false,
+  "iconsCount": null,
+  "fontWeight": null,
+  "price": -1,
+  "isBackUpVersion": false,
+  "themeType": 0,
+  "miuiAdapterVersion": "3.1"
+}
